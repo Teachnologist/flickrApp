@@ -1,0 +1,20 @@
+{
+  "name": "petpik",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "pettest"
+  },
+  "author": "jason triche",
+  "license": "ISC",
+  "dependencies": {
+    "angular-route": "^1.4.4",
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "flickr": "^0.2.0",
+    "flickrapi": "^0.3.35",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.1.2"
+  }
+}
