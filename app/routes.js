@@ -30,8 +30,8 @@ flickrOptions = {
 		
 		Flickr.authenticate(flickrOptions, function(error, flickr) {
   // we can now use "flickr" as our API object
-  flickr.test.login({
-  console.log(flickr);
+ 
+
   var key=flickr.options.api_key;
   console.log('my key = '+key);
   var newoptions={api_key: key};
@@ -43,9 +43,7 @@ flickr.photos.getRecent(newoptions,function(error,data){
 	res.json(data);
 });
   }); 
-  });
- // var x=
- //console.log(x);
+  
   
 });
 		
